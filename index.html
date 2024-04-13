@@ -1,0 +1,101 @@
+  <!DOCTYPE html>
+  <!-- Website - www.codingnepalweb.com -->
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="UTF-8" />
+      <title>Responsive Sidebar Menu HTML CSS | CodingNepal</title>
+      <link rel="stylesheet" href="/CSS/style.css" />
+      <!-- Boxicons CDN Link -->
+      <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+      <div class="sidebar">
+        <div class="logo-details">
+          <i class="bx bxl-c-plus-plus icon"></i>
+          <div class="logo_name">Nome da Plataforma</div>
+          <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="#" onclick="loadPage('dashboard.html')">
+                <i class="bx bx-grid-alt"></i>
+                <span class="links_name">Sobre</span>
+            </a>
+            <span class="tooltip">Sobre</span>
+        </li>
+        <li>
+            <a href="#" onclick="loadPage('dashboard.html')">
+                <i class="bx bx-user"></i>
+                <span class="links_name">Perfil</span>
+            </a>
+            <span class="tooltip">Perfil</span>
+        </li>
+          <li>
+            <a href="#" onclick="loadPage('Register.html')">
+              <i class="bx bx-chat"></i>
+              <span class="links_name">Chat</span>
+            </a>
+            <span class="tooltip">Chat</span>
+          </li>
+          <!-- <li>
+            <a href="#">
+              <i class="bx bx-pie-chart-alt-2"></i>
+              <span class="links_name">Nome</span>
+            </a>
+            <span class="tooltip">Nome</span>
+          </li> -->
+          <li>
+            <a href="#" onclick="loadPage('footer.html')">
+              <i class="bx bx-folder"></i>
+              <span class="links_name">Arquivos</span>
+            </a>
+            <span class="tooltip">Arquivos</span>
+          </li>
+          <!-- <li>
+            <a href="#">
+              <i class="bx bx-cart-alt"></i>
+              <span class="links_name">Nome</span>
+            </a>
+            <span class="tooltip">Nome</span>
+          </li> -->
+          <li>
+            <a href="#" onclick="loadPage('Video.html')">
+              <i class="bx bx-heart"></i>
+              <span class="links_name">Avaliação</span>
+            </a>
+            <span class="tooltip">Avaliação</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bx-cog"></i>
+              <span class="links_name">Configuração</span>
+            </a>
+            <span class="tooltip">Configuração</span>
+          </li>
+          <li class="profile">
+            <div class="profile-details">
+              <img src="/Image/WhatsApp Image 2023-10-24 at 19.17.49.jpeg" alt="profileImg" />
+              <div class="name_job">
+                <div class="name">Gustavo Henrique</div>
+                <div class="job">Desenvolvedor</div>
+              </div>
+            </div>
+            <i class="bx bx-log-out" id="log_out"></i>
+          </li>
+        </ul>
+      </div>
+      <section class="home-section">
+        <div class="text"></div>
+
+        <div id="content">
+          <!---Conteudo da pagina--->
+         <h1>Ola</h1>
+      </div>
+      </section>
+
+
+
+      <script src="/JS/script.js"></script>
+    </body>
+  </html>
